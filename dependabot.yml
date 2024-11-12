@@ -1,0 +1,9 @@
+# .github/dependabot.yml
+version: 2
+updates:
+  - package-ecosystem: "pip" # Python dependency manager
+    directory: "/" # Location of your dependency files (e.g., requirements.txt)
+    schedule:
+      interval: "weekly" # How often to check for updates
+    commit-message:
+      prefix: "fix" # Prefix for the commit message when Dependabot updates the dependencies
